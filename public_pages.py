@@ -6,6 +6,7 @@ app_token = '<INSERT>'
 app_secret = '<INSERT>'
 since_date = "2013-04-01" # YYYY-MM-DD
 until_date = "2019-05-17" # YYYY-MM-DD
+pagelist = ['repubblica', 'ilGiornale']
 
 # Functions
 def call_api(url):
@@ -174,6 +175,5 @@ def page_handler(page_id, access_token, since_date, until_date):
 # Main
 if __name__ == "__main__":
 	access_token = app_token+"|"+app_secret
-	pagelist = ['repubblica', 'ilGiornale']
 	for page_id in pagelist: 
 		page_handler(page_id, access_token, since_date, until_date)
