@@ -2,7 +2,8 @@
 ## A simple API downloader for FB's public pages data 
 
 This script calls the FB API (v3.3) on a public page.
-Under main you can define a page_id, that you find in the URL of the public page that you are interested.
+
+You can define a page_id, that you find in the URL of the public page that you are interested.
 For example, for the Italian newspaper Repubblica (https://www.facebook.com/repubblica -> page_id = 'repubblica')
 The resulting dataset contains these fields:
 
